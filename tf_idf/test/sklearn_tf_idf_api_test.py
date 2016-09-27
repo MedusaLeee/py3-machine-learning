@@ -23,7 +23,6 @@ term_matrix = countVectorizer.fit_transform(corpus)
 print(term_matrix.toarray())
 
 # 打印文本关键字
-
 print(countVectorizer.get_feature_names())
 
 # TfidfTransformer是统计vectorizer中每个词语的tf-idf值
@@ -31,4 +30,5 @@ tfidfTransformer = TfidfTransformer()
 
 tfidf_matrix = tfidfTransformer.fit_transform(term_matrix)
 
+# 打印tf-idf值矩阵
 print(tfidf_matrix.toarray())

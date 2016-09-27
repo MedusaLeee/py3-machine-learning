@@ -7,3 +7,11 @@ Python3
 
 ## 余弦相似度
 1. [使用余弦相似度算法计算两个文本的相似度的简单实现](https://github.com/MedusaLeee/py3-machine-learning/tree/master/simple_text_cosine_similarity)
+
+## TF-IDF
+
+In coding...
+
+## 朴素贝叶斯分类
+
+Coming soon!
